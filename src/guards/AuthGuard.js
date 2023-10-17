@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import AxiosInterceptor from '../interceptors/AxiosInterceptor';
 
 import Header from '../components/Header';
